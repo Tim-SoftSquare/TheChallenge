@@ -3,10 +3,7 @@ The challenge aka "ClientIp6"
 The challenge is a simple microservice comprised of a containerized web server. It’s created to return a 
 JSON response with the following structure, when it’s / URL path is accessed:
 
-{
-  "timestamp": "<current date and time>",
-  "ip": "<the IP address of the visitor>"
-}
+![image](https://user-images.githubusercontent.com/46641069/136136419-f31dfe5a-57b3-4831-a3aa-01525690c8c7.png)
  
 The source code is written using Node.js with Express.js.  The project file structure includes a
 Dockerfile that was used to produce the containerized image which is published to, and is publicly
