@@ -14,8 +14,8 @@ available on, Docker Hub at the following web address:
 
 https://hub.docker.com/r/timbbishop/date-ip
 
-Also located in the project file structure is the Kubernetes manifest deployment.yaml file containing a
-deployment and a service that’s utilized for deployment of the microservice on Kubernetes.  
+Also located in the project file structure is the Kubernetes manifest deployment.yaml file containing
+a deployment and a service that’s utilized for deployment of the microservice on Kubernetes.  
 
 To deploy the Microservice to K8s
 
