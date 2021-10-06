@@ -30,10 +30,12 @@ kubectl apply -f deployment.yml
 this installation process are below.
 
 https://docs.docker.com/get-docker/
+  
 https://kubernetes.io/docs/tasks/tools/
 
 Resources Sited
 
 https://docs.docker.com/get-started/
+  
 https://kubernetes.io/docs/tutorials/   
 
