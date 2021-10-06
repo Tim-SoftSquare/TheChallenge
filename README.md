@@ -21,6 +21,11 @@ To deploy the Microservice to K8s
 
 Pull the image from docker hub using the following Docker Pull command:
 docker pull timbbishop/date-ip
+
+Within the cloned project directory use the following comand in the terminal:
+  
+npm install
+  
 After cloning The Challenge from this GitHub repo, the only command needed to deploy this microservice to
 Kubernetes is below:
 
