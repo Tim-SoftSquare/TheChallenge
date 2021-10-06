@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: date-ip-deployment
+  labels:
+    app: date-ip
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: date-ip-pod
+  template:
+    metadata:
+      labels:
+        app: date-ip-pod
+    spec:
+      containers:
+      - name: date-ip
+        image: timbbishop/date-ip
+        ports:
+        - containerPort: 3000
+---        
+apiVersion: v1
+kind: Service
+metadata:
+  name: date-ip-service
+spec:
+  selector:
+    app: date-ip-pod
+  ports:
+  - port: 3000
+    targetPort: 3000
+
